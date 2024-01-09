@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-image: url(../image/resources/Banner\ Image.png);
+    background: linear-gradient(180deg, #070211) 100%);
+    background-size: cover;
+    background-position:bottom center;
+    height: 100vh;
+    border-radius: 16px;
+    }
+.hero h3{
+    color: azure;
+    text-align: center;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero h2{
+    color: white;
+    font-family: Merriweather;
+    font-size: 46px;
+    font-weight: 500px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
