@@ -1,4 +1,6 @@
 *{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -14,15 +16,257 @@
     color: azure;
     text-align: center;
     padding-top: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .hero h2{
     color: white;
-    font-family: Merriweather;
     font-size: 46px;
     font-weight: 500px;
     line-height: 50px;
     letter-spacing: 0em;
     text-align: center;
 
+}
+#featured{
+    background-color: white;
+    border: white;
+    padding: 1600, 735;
+}
+.section-heading h2{
+    color: #F00;
+    text-align: center;
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.section-heading h4 {
+    color: #F00;
+    text-align: center;
+    top: 100px;
+    bottom: 100px;
+font-size: 5px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.section-heading h3 {
+    color: #070211;
+text-align: center;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.section-conten{
+    display: flex;
+    justify-content: center;
+}
+.banner img {
+    width: 200px;
+height: 200px;
+flex-shrink: 0;
+}
+.img {
+    margin: 10px 0px;
+    background-image: url(../image/resources/pp.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    border-radius: 16px;
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.banner .banner-text h1 {
+    color: #FFF;
+font-size: 30px;
+padding: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0em;
+ }
+ .banner .banner-text p {
+    color: #FFF;
+    font-size: 8px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0em;
+ }
+ address {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: auto;
+    height: 50px;
+    padding: 10%;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 200px;
+line-height: 20opx;
+text-transform: capitalize;
+ } 
+ .button{
+    border: none;
+    background: red;
+    color: #ffffff;
+    padding: 5px 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+    margin: 1px 1px;
+    cursor: pointer;
+    transition: all 1s;
+  }
+  .button:hover {
+    background-color: gold;
+
+  }
+ .skills-container{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    margin: 10px 0;
+    height: auto;
+ }
+.skills {
+    padding: 20px;
+    border-radius: 5px;
+} 
+ .skills h2{
+    color: #F00;
+text-align: center;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+ .skills-description{
+    color: black;
+    text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+ .skills-text{
+    color: black;
+font-size: 5px;
+text-align: center;
+font-style: normal;
+font-weight: 300;
+line-height: normal
+ }
+ .skills h3{
+    text-align: center;
+    color: #F00;
+ }
+ .skills h4 {
+    text-align: center;
+ }
+ .skills-img {
+    padding: 10px;
+    border-radius: 60px;
+border: 5px solid red;
+ }
+ .container{
+    text-align: center;
+    padding: 10px;
+
+ }
+ .titel {
+    color: #070211;
+font-size: 8px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+ .paragrap-text {
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+padding: 5px;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+ .banner-hero {
+    width: 400px;
+    height: 50px;
+    float: right;
+    margin: 100px 0px;
+
+ }
+.container-new {
+    margin: 10px 0px;
+}
+.titel-new {
+    color: #F00;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.heading-new {
+    color: #070211;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize
+}
+.paragrap-new {
+    color: black;
+font-size: 8px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#pic {
+    max-width:  1600px;
+    max-height: 7335px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.email{
+    border-radius: 16px;
+    background-color: bisque;
+}
+.images{
+    text-align: center;
+}
+.titel-new{
+    color: #070211;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.description{
+    color: black;
+    padding: 10px;
+text-align: center;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal
+}
+.container-input{
+    text-align: center;
+    color: green;
 }
